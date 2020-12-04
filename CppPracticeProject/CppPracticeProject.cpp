@@ -4,16 +4,16 @@
 using namespace std;
 
 struct Book {
-	string title;
-	string author;
-	int price;
+	auto title = "순위";
+	auto author = "미상";
+	auto price = 10000;
 
 };
 
 int main()
 {
 
-	struct Book webBook = {"언어순위", "은빛개구리", 16000};
+	Book webBook = {};
 
 
 	cout << "Hello World! book title:" << webBook.title << endl;
